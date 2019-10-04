@@ -19,17 +19,20 @@
  då det skulle vara otroligt oeffektivt att behöva göra 100+ likadana sidor som jag sedan länkar till.
  
  Sedan vill jag implementera dessa funktioner med JS i navbaren:
- En Save funtktion som sparar spelet till en fil
- En Load funktion som laddar upp spelet från en fil
- En About knapp som öppnar en dialog ruta som berättar i detalj om projektet
- En Help knapp som öppnar en dialogruta som kan agera som tutorial/guide/tips
+ - En Save funtktion som sparar spelet till en fil
+ - En Load funktion som laddar upp spelet från en fil
+ - En About knapp som öppnar en dialog ruta som berättar i detalj om projektet
+ - En Help knapp som öppnar en dialogruta som kan agera som tutorial/guide/tips
 
 Sedan har jag börjar skapa en draw.io där jag börjar jobba på storyboarden och de olika val som spelarna kommer ha.
 
 Färgschema och font är inte bestämt ännu, håller på att testa olika.
 Jag har skapat en basic logga för spelet men den följer ett visst färgschema så om jag byter färgschema på hemsidan måste även loggan bytas ut.
 
-
+Sidor för saker och ting:
+https://robohash.org/ - För poträtt
+https://game-icons.net/ - För ikoner till spelet
+https://opengameart.org/ - För annan sorts grafik
 
 
 
