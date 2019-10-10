@@ -2,12 +2,12 @@
 <html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/custom.css">
 <title>Pasta Alfredo2</title>
 <head>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -15,31 +15,42 @@
         
     <div class="container-fluid">
         <div class="row" style="height: 100vh">
-          
-            <div class="col-1" style="background-color: #afa060">
-            
-          </div>
-          
-          <div class="col-10" style="background-color: #ad8350">
-                <img src="../images/start.jpg" alt="No image added yet" class="rounded mx-auto d-block mt-1" id="img" width="300px">
+                <div class="col-1 px-0" style="background-color:#187795;">
+                  <a class="btn btn-lg btn-change text-left" role="button" aria-pressed="true" onclick="helpButtonFunction()">Help</a>
+                  <a class="btn btn-lg btn-change text-left" role="button" aria-pressed="true" onclick="aboutButtonFunction()">About</a>
+                  <script>
+                      function helpButtonFunction(){
+                          alert(" You play the game by reading the story \n then clicking on the decision you want. \n (colored blue in the bottom-middle of the page).");
+                      }
+                      function aboutButtonFunction(){
+                          alert(" This game is created by David Persson and is a 'choose your own adventure game' \n The game follows the continuing story of Pasta Alfredo");
+                      }
+                  </script>
+                  <a href="../index.html" class="btn btn-lg btn-change text-left" role="button" aria-pressed="true">Restart</a>
+                </div>
                 
-                <p class="text-center mt-5" style="color: #2b303a">Before beginning your adventure, you have to decide how your starting situation is.
-                  <br>Are you still living with Violetta as petty farmers?
-                  <br>Are you living by yourself but rich?
-                  <br>Or have you become homeless barely scraping by?
+          <div class="col-10" style="background-color: #38686a">
+                <img src="../images/start.jpg" alt="img missing" class="rounded mx-auto d-block mt-1" id="img" width="400px">
+                
+                <p class="text-center mt-5" style="color: #2b303a">Welcome to the predecessor to the exceptional adventure game Pasta Alfredos Adventure.
+                    <br>This game was made by David Persson using HTML & bootstrap.
+                    <br>You play this game by reading the story, then you choose which actions you want to take. There is currently three 'happy' endings in the game.
+                    <br>If you die or reach the end of a certain storyline you will get the choice to restart, allowing you to replay the game following a different route. 
                 </p>
-                <a href="farmer.html" class="mx-5" style="color: #764134">Farmer with Violetta</a>
-                <a href="rich.html" class="mx-5" style="color: #764134">Rich but alone</a>
-                <a href="homeless.html" class="mx-5" style="color: #764134">Homeless</a>
+                <p class="text-center" style="color: #2b303a">
+                    <br>Press START to begin the adventure.
+                </p>
+                <a href="2gether/wVioletta.html" class="mx-5" style="color: #2589bd">With Violetta</a>
+                <a href="alone/homeless.html" class="mx-5" style="color: #2589bd">Homeless</a>
+                <a href="" class="mx-5" style="color: #2589bd"></a>
           </div>
-          
-          <div class="col-1" style="background-color: #afa060">
-            
-          </div>
+        <div class="col-1 px-0" style="background-color: #187795">
+
+        </div>
         </div>
       </div>
 
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/tether.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

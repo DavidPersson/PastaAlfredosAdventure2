@@ -63,8 +63,19 @@ body {
   background-color: #fff;
 }
 
+.btn-change{
+    height: 50px;
+    width: 215px;
+    background: #18648c;
+    float: center; 
+    box-shadow: 0 0 1px #18648c;
+    -webkit-transition: all 0.5s ease-in-out;
+}
 
-
+.btn-change:hover{
+  -webkit-transition: scale(1.1);
+  background-color: #18648c !important;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -79,7 +90,6 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 p {

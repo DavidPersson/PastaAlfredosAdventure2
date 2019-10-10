@@ -7,7 +7,8 @@
 <title>Pasta Alfredo2</title>
 <head>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="/js/spel.js"></script>
 
 </head>
 
@@ -15,11 +16,20 @@
         
     <div class="container-fluid">
         <div class="row" style="height: 100vh">
-          
-            <div class="col-1" style="background-color: #187795">
-            
-          </div>
-          
+            <div class="col-1 px-0" style="background-color:#187795;">
+                <a class="btn btn-lg btn-change text-left" role="button" aria-pressed="true" onclick="helpButtonFunction()">Help</a>
+                <a class="btn btn-lg btn-change text-left" role="button" aria-pressed="true" onclick="aboutButtonFunction()">About</a>
+                <script>
+                    function helpButtonFunction(){
+                        alert(" You play the game by reading the story \n then clicking on the decision you want. \n (colored blue in the bottom-middle of the page).");
+                    }
+                    function aboutButtonFunction(){
+                        alert(" This game is created by David Persson and is a 'choose your own adventure game' \n The game follows the continuing story of Pasta Alfredo");
+                    }
+                </script>
+                <a href="index.html" class="btn btn-lg btn-change text-left" role="button" aria-pressed="true">Restart</a>
+                </div>
+                
           <div class="col-10" style="background-color: #38686a">
                 <img src="images/logga.png" alt="img missing" class="rounded mx-auto d-block mt-1" id="img" width="400px">
                 
@@ -30,20 +40,19 @@
                 </p>
                 <p class="text-center mt-5" style="color: red">
                     <br>WARNING! 
-                    <br>This game contains criminal activites and disturbing content that might be seen as offensive or disturbing.
+                    <br>This game contains mature and disturbing content that might be seen as offensive, and is not meant to be played by a young audience.
                     <br>Play at own discretion. 
                 </p>
                 <p class="text-center" style="color: #2b303a">
                     <br>Press START to begin the adventure.
                 </p>
-                <a href="" class="mx-5" style="color: #764134"></a>
+                <a href="" class="mx-5" style="color: #2589bd"></a>
                 <a href="story/start.html" class="mx-5" style="color: #2589bd">START</a>
-                <a href="" class="mx-5" style="color: #764134"></a>
+                <a href="" class="mx-5" style="color: #2589bd"></a>
           </div>
-          
-          <div class="col-1" style="background-color: #187795"></div>
-            
-          </div>
+        <div class="col-1 px-0" style="background-color: #187795">
+
+        </div>
         </div>
       </div>
 
