@@ -19,8 +19,7 @@
  då det skulle vara otroligt oeffektivt att behöva göra 100+ likadana sidor som jag sedan länkar till.
  
  Sedan vill jag implementera dessa funktioner med JS i navbaren:
- - En Save funtktion som sparar spelet till en fil
- - En Load funktion som laddar upp spelet från en fil
+ - En Restart knapp som börjar om spelet från start sidan.
  - En About knapp som öppnar en dialog ruta som berättar i detalj om projektet
  - En Help knapp som öppnar en dialogruta som kan agera som tutorial/guide/tips
 
